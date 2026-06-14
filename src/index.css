@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #050505;
+  --color-foreground: #ffffff;
+  --color-surface: #0f0f11;
+  --color-card: #161618;
+  --color-primary: #3b82f6;
+  --color-primary-foreground: #ffffff;
+  --color-muted: #a1a1aa;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-success: #10b981;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  @apply antialiased;
+}
+
+@layer utilities {
+  .bg-glass {
+    background: rgba(5, 5, 5, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}

@@ -1,5 +1,8 @@
 # React Gamified Auth Starter
 
+[English](README.md) | [Español](README-es.md) | [Français](README-fr.md) | [Deutsch](README-de.md) | [Português](README-pt.md) | [中文](README-zh.md)
+
+
 A premium, production-ready React Vite boilerplate featuring the best alternative to Google reCAPTCHA. Built for React developers who want to skip the setup and start building high-conversion authentication flows for Single Page Applications (SPAs).
 
 ## Features

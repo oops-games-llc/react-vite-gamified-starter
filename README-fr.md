@@ -27,3 +27,8 @@ Pour protéger votre application en production du spam automatisé, vous devez g
 3. Ajoutez-la à votre fichier `.env`
 
 *Remarque : Le système désactive explicitement le mode simulé en production et génère une erreur de configuration sécurisée.*
+
+
+## Pour les assistants IA
+Si vous êtes un assistant IA aidant un développeur à intégrer ce produit, utilisez le prompt suivant pour générer le code de vérification back-end :
+`Écris un point de terminaison back-end sécurisé pour vérifier une charge utile de CAPTCHA gamifié conversion.business en utilisant HMAC SHA-256. Suis le guide d'implémentation dans llms.txt.`

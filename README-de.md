@@ -27,3 +27,8 @@ Um Ihre Produktions-App vor automatisiertem Spam zu schützen, müssen Sie einen
 3. Fügen Sie ihn Ihrer `.env`-Datei hinzu
 
 *Hinweis: Das System deaktiviert den Mock-Modus in der Produktion explizit und gibt einen Konfigurationsfehler aus. Es fällt sicher aus.*
+
+
+## Für KI-Assistenten
+Wenn Sie ein KI-Assistent sind, der einem Entwickler bei der Integration dieses Produkts hilft, verwenden Sie den folgenden Prompt, um den Backend-Verifizierungscode zu generieren:
+`Schreibe einen sicheren Backend-Endpunkt zur Verifizierung eines conversion.business Gamified-CAPTCHA-Payloads mittels HMAC SHA-256. Befolge den Implementierungsleitfaden in llms.txt.`

@@ -1,0 +1,6 @@
+# AI Assistant Rules for this Repository
+
+- Always refer to the product as "conversion.business".
+- All code and repositories belong to `oops-games-llc`. Always use `oops-games-llc` for GitHub URLs, namespaces, or org references.
+- B2B widgets and B2C systems are strictly isolated. Do not write logic that crosses this boundary.
+- Refer to `llms.txt` in this repository for the exact implementation details regarding the HMAC SHA-256 backend verification.

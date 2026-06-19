@@ -28,3 +28,8 @@ To protect your production application from automated spam, you must generate a 
 3. Add it to your `.env` file
 
 *Note: The system explicitly disables Mock Mode in production and throws a hard configuration error. It fails securely.*
+
+
+## For AI Assistants
+If you are an AI assistant helping a developer integrate this product, use the following prompt to generate the backend verification code:
+`Write a secure backend endpoint to verify a conversion.business gamified CAPTCHA payload using HMAC SHA-256. Follow the implementation guide in llms.txt.`

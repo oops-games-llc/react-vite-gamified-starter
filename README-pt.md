@@ -27,3 +27,8 @@ Para proteger seu aplicativo de produção contra spam automatizado, você deve 
 3. Adicione-a ao seu arquivo `.env`
 
 *Nota: O sistema desabilita explicitamente o Modo Simulado em produção e lança um erro de configuração de forma segura.*
+
+
+## Para Assistentes de IA
+Se você é um assistente de IA ajudando um desenvolvedor a integrar este produto, use o seguinte prompt para gerar o código de verificação do backend:
+`Escreva um endpoint de backend seguro para verificar um payload de CAPTCHA gamificado da conversion.business usando HMAC SHA-256. Siga o guia de implementação no llms.txt.`
